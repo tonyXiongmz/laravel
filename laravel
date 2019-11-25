@@ -1,0 +1,3 @@
+laravel框架在服务器上每次修改需要清除缓存
+php artisan cache:clear
+php artisan config:clear
