@@ -1,3 +1,7 @@
 laravel框架在服务器上每次修改需要清除缓存
 php artisan cache:clear
 php artisan config:clear
+2、加密encrpy,不同项目不同环境的app_key生成是不同的，涉及到laravel自带的加密、解密需要重新配置，否则验签失败。
+3、生成app_key的命令，php artisan key_generate
+4、现在的laravel框架是不带vendor目录的，需要通过composer下载，命令composer install
+
